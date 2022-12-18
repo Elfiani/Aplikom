@@ -1,0 +1,203 @@
+* {
+    font-family: "Rubik", sans-serif;
+    warna: putih;
+  }
+  badan {
+    Warna latar belakang: RGB(35, 35, 38 );
+    batas: 0;
+  }
+  . Header {
+    warna latar belakang: #6d9886;
+    posisi: tetap;
+    atas: 0;
+    lebar: 100%;
+    Tinggi: 6%;
+    bantalan: 15 piksel 5piksel;
+    berat font: 600;
+  }
+  . Header Div {
+    tampilan: blok sebaris;
+  }
+  . Navbar {
+    mengapung: benar;
+  }
+  . navbar div {
+    batas: 0 10px 0  0 ;
+  }
+  . Navbar A {
+    dekorasi teks: tidak ada;
+    kursor: default;
+  }
+  . utama {
+    batas: 100px 0 0  0 ;
+  }
+  . pahlawan {
+    bantalan: 20piksel;
+    tampilan: kisi;
+    kisi-templat-kolom: 65% 35%;
+    Ukuran font: 72piksel;
+    berat font: 600;
+  }
+  . halo div {
+    font-weight: normal;
+    ukuran font: 60px;
+    padding-top: 2%;
+  }
+  . Halo A {
+    kursor: default;
+  }
+  . pahlawan . Desc {
+    margin-atas: 0px;
+    ukuran font: 20px;
+  }
+  . garis {
+    lebar: 20%;
+    warna latar belakang: #ffb846;
+    margin-atas: 10piksel;
+    radius batas: 10px;
+  }
+  . pahlawan . gambar img {
+    radius batas: 15%;
+    Tinggi: 420piksel;
+  }
+  . kontak {
+    margin-atas: 0px;
+  }
+  . ikon kontak-ikon {
+    batas: 0 5px 0  0 ;
+  }
+  . tombol pahlawan {
+    margin-atas: 30px;
+    bantalan: 10piksel;
+    radius batas: 15px;
+    ukuran font: 16px;
+    warna latar belakang: rgba(0, 0, 0,  0);
+    Warna: #F7F7F7;
+    perbatasan: 2px padat #ffb846;
+    lebar: 50%;
+  }
+  . sekitar {
+    margin-atas: 5%;
+    warna latar belakang: #ffb846;
+    bantalan: 60 piksel 20 piksel;
+    kursor: default;
+    tampilan: kisi;
+    grid-template-columns: 30% auto;
+    font-size: 20px;
+  }
+  .about .image img {
+    height: 300px;
+    border-radius: 15%;
+    margin: 0;
+  }
+  .about p,
+  .about h2,
+  .about table tr td {
+    color: black;
+  }
+  .edu {
+    padding: 40px 20px;
+    font-size: 20px;
+  }
+  .edu table tr td {
+    text-align: center;
+    padding: 50px;
+  }
+  .edu table tr td p {
+    margin: 0;
+  }
+  . edu-konten {
+    tampilan: kisi;
+    grid-template-columns: 60% otomatis;
+    margin-atas: 20px;
+  }
+  . edu-konten . gambar img,
+  . konten keterampilan . gambar img {
+    Tinggi: 300piksel;
+    batas: 0;
+  }
+  . konten keterampilan {
+    tampilan: kisi;
+    grid-template-columns: 50% otomatis;
+    margin-atas: 20px;
+  }
+  . keahlian {
+    warna latar belakang: #ffb846;
+    bantalan: 40 piksel 20 piksel;
+    warna: #202429;
+    ukuran font: 20px;
+  }
+  . keterampilan h2,
+  . tabel keterampilan tr td {
+    warna: #202429;
+  }
+  . tabel konten keterampilan {
+    lebar: 80%;
+  }
+  . Bar {
+    batas: 10px 0 0  0 ;
+    radius batas: 15px;
+    lebar: 100%;
+    warna latar belakang: #393e46;
+  }
+  . bilah keterampilan {
+    radius batas: 15px;
+    bantalan: 20piksel;
+    warna latar belakang: #6d9886;
+  }
+  . bilah keterampilan. Web {
+    lebar: 20%;
+  }
+  . bilah keterampilan. jaringan {
+    lebar: 30%;
+  }
+  . bilah keterampilan. desain {
+    lebar: 40%;
+  }
+  @media layar dan (lebar maks: 768px) {
+   . Header {
+      Tinggi: 20piksel;
+      lebar: 100%;
+      Ukuran font: 18piksel;
+      posisi: tetap;
+      sejajar vertikal: tengah;
+    }
+   . utama {
+      margin-atas: 40piksel;
+    }
+   . Navbar {
+      bantalan: 4px  0 0 0 ;
+      Ukuran font: 14piksel;
+      font-weight: normal;
+    }
+   . pahlawan,
+   . tentang,
+   . edu-konten,
+   . konten keterampilan {
+      grid-template-columns: tidak ada;
+      grid-template-rows: ulangi (2, otomatis);
+    }
+   . pahlawan . citra {
+      kisi-baris-mulai: 1;
+    }
+   . pahlawan . gambar img {
+      Tinggi: 300piksel;
+      tampilan: tidak ada;
+    }
+   . halo div {
+      ukuran font: 30px;
+    }
+   . pahlawan . Desc {
+      Ukuran font: 18piksel;
+    }
+   . Tabel Edu  tr TD {
+      bantalan: 8piksel;
+    }
+  
+   . edu-konten . gambar img {
+      Tinggi: 200piksel;
+    }
+   . konten keterampilan . gambar img {
+      Tinggi: 200piksel;
+    }
+  }
